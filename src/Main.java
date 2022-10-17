@@ -22,7 +22,7 @@ public class Main {
                 ((Eagle)animal).fly();
             } else if (animal.getClass().getName().equals("animal.Shark")) {
                 ((Shark)animal).attack();
-            } else if (animal.getClass().getName().equals("animal.Turle")) {
+            } else if (animal.getClass().getName().equals("animal.Turtle")) {
                 ((Turtle)animal).swim();
             }
         }
